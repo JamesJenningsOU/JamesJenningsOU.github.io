@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+        <h1><a href="index.html">Stanley Storage</a></h1>
+        <nav>
+            <ul>
+                <button><a href="index.html">Home</a></button>
+                <button><a href="units.html">Units/Pricing</a></button>
+                <button><a href="contact.html">Contact</a></button>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <section class="contact-form"> <!-- didn't add any special XSS protection since there is no back-end -->
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <form id="contactForm" novalidate>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+
+                    <button type="submit">Submit</button>
+                    <p id="formMessage" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 Stanley Storage</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
