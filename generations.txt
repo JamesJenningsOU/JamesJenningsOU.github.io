@@ -1,0 +1,9 @@
+Generation 1: Magnavox Odyssey, coleco telstar, Nintendo color tv-game
+Generation 2: Atari 2600, Coleco ColecoVision, Mattel Intellivision
+Generation 3: Nintengo NES, Sega Master System, Atari 7800
+Generation 4: Sega Genesis, Nintendo Super NES, SNK Neo Geo 
+Generation 5: Sega Saturn, Sony PlayStation, Nintendo Nintendo 64
+Generation 6: Sony Playstation 2, Nintendo GameCube, Microsoft Xbox
+Generation 7: Sony Playstation 3, Nintendo Wii, Microsoft Xbox360
+Generation 8: Sony Playstation 4, Nintendo Switch, Microsoft Xbox One
+Generation 9: Sony Playstation 5, Xbox Series X, Xbox Series S
